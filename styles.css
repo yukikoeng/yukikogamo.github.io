@@ -9,10 +9,10 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif; /* 本文用フォント */
+  font-family: 'Inter', sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color: #f9f9f9; /* 明るめの背景色 */
+  background-color: #f9f9f9;
 }
 
 /* ===== Container ===== */
@@ -34,7 +34,7 @@ body {
   display: inline-block;
   margin: 0;
   font-size: 1.8rem;
-  font-family: 'Montserrat', sans-serif; /* 見出し用フォント */
+  font-family: 'Montserrat', sans-serif;
   color: #222;
 }
 
@@ -57,17 +57,17 @@ body {
 }
 
 .site-nav a:hover {
-  color: #007bff; /* ホバー時のアクセントカラー */
+  color: #007bff;
 }
 
 /* ===== Hero Section ===== */
 .hero {
     position: relative;
     background: linear-gradient(-45deg, #d4f8e8, #a8e6cf, #85dcb0, #c5f2e0);
-    background-size: 400% 400%; /* 背景を拡大してアニメーションに動きを追加 */
+    background-size: 400% 400%;
     text-align: center;
     padding: 100px 20px;
-    color: #2c3e50; /* 緑系背景に合う落ち着いた文字色 */
+    color: #2c3e50;
     animation: gradientAnimation 8s ease infinite;
     overflow: hidden;
   }
@@ -105,10 +105,10 @@ body {
     left: 50%;
     width: 500px;
     height: 500px;
-    background: rgba(255, 255, 255, 0.1); /* 薄いホワイトの円 */
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     transform: translate(-50%, -50%);
-    animation: pulse 6s infinite ease-in-out; /* 背景にゆっくりした動きを追加 */
+    animation: pulse 6s infinite ease-in-out;
   }
   
   @keyframes pulse {
@@ -116,7 +116,7 @@ body {
       transform: translate(-50%, -50%) scale(1);
     }
     50% {
-      transform: translate(-50%, -50%) scale(1.2); /* 中心の円が膨らむ効果 */
+      transform: translate(-50%, -50%) scale(1.2);
     }
   }  
 
